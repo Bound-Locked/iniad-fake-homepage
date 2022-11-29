@@ -5,24 +5,36 @@ body {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 36px;
   text-align: center;
+  background-color: #00008b;
+  color: #fff;
+  border-radius: 15px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 28px;
   color: #000000;
   border-bottom: solid 1px #cc0000;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
   padding-left: 4px;
   border-left: solid 4px #cc0000;
 }
 
 ul {
   list-style: none;
+  padding: 0;
+}
+
+table {
+  background-color: #fff; 
+}
+
+table th {
+  font-size: larger;
 }
 
 #schedule {
@@ -31,7 +43,7 @@ ul {
 }
 
 .iniad {
-  color: #00cc00;
+  color: #ffa500;
 }
 
 .time {
@@ -54,4 +66,26 @@ ul {
   float: right;
   display: block;
   margin: 0 900px 0 0;
+}
+
+.concept {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px;
+  background: #1e90ff;
+  color: #fff;
+  box-shadow: 0px 2px 4px #575;
+  border-radius: 25% 10%;
+}
+
+.course {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px;
+  background: #1e90ff;
+  color: #fff;
+  box-shadow: 0px 2px 4px #575;
+  border-radius: 25% 10%;
 }
