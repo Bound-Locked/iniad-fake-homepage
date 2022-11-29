@@ -82,6 +82,8 @@ table th {
   color: #fff;
   box-shadow: 0px 2px 4px #575;
   border-radius: 25% 10%;
+  animation: poyopoyo 2s ease-out infinite;
+  opacity: 1;
 }
 
 .course {
@@ -93,4 +95,15 @@ table th {
   color: #fff;
   box-shadow: 0px 2px 4px #575;
   border-radius: 25% 10%;
+  animation: poyopoyo 2s ease-out infinite;
+  opacity: 1;
+}
+
+@keyframes poyopoyo {
+  0%, 40%, 60%, 80% {
+    transform: scale(1.0);
+  }
+  50%, 70% {
+    transform: scale(0.95);
+  }
 }
