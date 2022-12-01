@@ -35,7 +35,8 @@ ul {
 }
 
 table {
-  background-color: #fff; 
+  background-color: #fff;
+  margin-left: 200px; 
 }
 
 table th {
@@ -55,6 +56,7 @@ table th {
   font-weight: bold;
   color: #cc0000;
   font-size: 30px;
+  margin-left: 40px;
 }
 
 .image {
@@ -62,7 +64,7 @@ table th {
   height: 135.2px;
   float: right;
   display: block;
-  margin: 0 850px 0 0;
+  padding-right: 850px;
 }
 
 .image2 {
@@ -106,23 +108,4 @@ table th {
   50%, 70% {
     transform: scale(0.95);
   }
-}
-
-.start {
-	background: #FFF;
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	z-index: 9000;
-}
-.start p {
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	display: none;
-	z-index: 9999;
-	width: 280px;
 }
