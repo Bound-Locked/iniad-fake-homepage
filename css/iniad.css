@@ -59,16 +59,16 @@ table th {
   margin-left: 40px;
 }
 
-.image {
+.image1 {
   width: 240px;
   height: 135.2px;
-  float: right;
+  margin-left: 3rem;
 }
 
 .image2 {
   width: 135px;
   height: 114.9px;
-  float: right;
+  margin-left: 3rem;
 }
 
 .concept {
@@ -95,6 +95,10 @@ table th {
   border-radius: 25% 10%;
   animation: poyopoyo 2s ease-out infinite;
   opacity: 1;
+}
+
+.divSepa{
+  display: flex;
 }
 
 @keyframes poyopoyo {
